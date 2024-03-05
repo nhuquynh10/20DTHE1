@@ -21,5 +21,12 @@ namespace WinFormsApp1
             //read db
             return true;
         }
+
+        /*
+         Dang luc long toi muon tam yen
+        bong ai mang lai canh hoa tim
+        cho toi ep not dong du le
+        ro xuong thanh tho khoc chut duyen
+         * */
     }
 }
