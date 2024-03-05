@@ -29,38 +29,44 @@
         private void InitializeComponent()
         {
             label1 = new Label();
+            txtTenDangNhap = new TextBox();
+            txtMatKhau = new TextBox();
             label2 = new Label();
-            textBox1 = new TextBox();
             btnDangNhap = new Button();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(126, 100);
+            label1.Location = new Point(113, 77);
             label1.Name = "label1";
-            label1.Size = new Size(50, 20);
+            label1.Size = new Size(112, 20);
             label1.TabIndex = 0;
-            label1.Text = "label1";
+            label1.Text = "Tên Đăng Nhập";
+            // 
+            // txtTenDangNhap
+            // 
+            txtTenDangNhap.Location = new Point(228, 74);
+            txtTenDangNhap.Name = "txtTenDangNhap";
+            txtTenDangNhap.Size = new Size(453, 27);
+            txtTenDangNhap.TabIndex = 1;
+            // 
+            // txtMatKhau
+            // 
+            txtMatKhau.Location = new Point(228, 162);
+            txtMatKhau.Name = "txtMatKhau";
+            txtMatKhau.Size = new Size(453, 27);
+            txtMatKhau.TabIndex = 3;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(121, 164);
+            label2.Location = new Point(113, 165);
             label2.Name = "label2";
-            label2.Size = new Size(50, 20);
-            label2.TabIndex = 1;
-            label2.Text = "label2";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(235, 95);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(353, 27);
-            textBox1.TabIndex = 2;
-            // 
-            // btnDangNhap
-            // 
+            label2.Size = new Size(72, 20);
+            label2.TabIndex = 2;
+            label2.Text = "Mật Khẩu";
+
             btnDangNhap.Location = new Point(235, 235);
             btnDangNhap.Name = "btnDangNhap";
             btnDangNhap.Size = new Size(94, 29);
@@ -74,8 +80,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(btnDangNhap);
-            Controls.Add(textBox1);
+            Controls.Add(txtMatKhau);
             Controls.Add(label2);
+            Controls.Add(txtTenDangNhap);
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
@@ -86,8 +93,9 @@
         #endregion
 
         private Label label1;
+        private TextBox txtTenDangNhap;
+        private TextBox txtMatKhau;
         private Label label2;
-        private TextBox textBox1;
         private Button btnDangNhap;
     }
 }
