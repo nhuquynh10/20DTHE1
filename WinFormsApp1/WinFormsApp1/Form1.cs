@@ -1,4 +1,4 @@
-namespace WinFormsApp1
+﻿namespace WinFormsApp1
 {
     public partial class Form1 : Form
     {
@@ -13,7 +13,7 @@ namespace WinFormsApp1
 
             if(kq)
             {
-                MessageBox.Show("Th�nh c�ng");
+                MessageBox.Show("Thành công");
             }
         }
 
@@ -21,5 +21,22 @@ namespace WinFormsApp1
             //read db
             return true;
         }
+
+        /*
+         Đâu biết lần đi một lỡ làng
+        Dưới trời đau khổ chết yêu đương
+         */
+
+
+
+
+        /*
+         Người xa xăm quá tôi buồn quá
+        Trong một ngày vui pháo nhuộm đường
+         */
+
+
+
+
     }
 }
