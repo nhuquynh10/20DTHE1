@@ -7,6 +7,7 @@
             InitializeComponent();
         }
 
+
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
             bool kq = checkLogin(txtTenDangNhap.Text, txtMatKhau.Text);
@@ -48,5 +49,17 @@
         cho toi ep not dong du le
         ro xuong thanh tho khoc chut duyen
          * */
+
+        /*
+         Thuở ấy lòng tôi thơ thới quá
+        Hồn thơ nguyên vẹn một trời hương
+        Nhưng nhà nghệ sỹ từ đâu lại
+        Êm ái trao tôi một vết thương
+          */
+        /*
+         Them cau tho
+         Them cau van 
+         */
+
     }
 }
