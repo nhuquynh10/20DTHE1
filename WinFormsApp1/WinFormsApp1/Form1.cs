@@ -53,6 +53,10 @@
         Nhưng nhà nghệ sỹ từ đâu lại
         Êm ái trao tôi một vết thương
           */
+        /*
+         Them cau tho
+         Them cau van 
+         */
 
     }
 }
