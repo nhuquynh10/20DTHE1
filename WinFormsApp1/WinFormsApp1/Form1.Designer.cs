@@ -28,12 +28,64 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            label1 = new Label();
+            txtTenDangNhap = new TextBox();
+            txtMatKhau = new TextBox();
+            label2 = new Label();
+            SuspendLayout();
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(113, 77);
+            label1.Name = "label1";
+            label1.Size = new Size(112, 20);
+            label1.TabIndex = 0;
+            label1.Text = "Tên Đăng Nhập";
+            // 
+            // txtTenDangNhap
+            // 
+            txtTenDangNhap.Location = new Point(228, 74);
+            txtTenDangNhap.Name = "txtTenDangNhap";
+            txtTenDangNhap.Size = new Size(453, 27);
+            txtTenDangNhap.TabIndex = 1;
+            // 
+            // txtMatKhau
+            // 
+            txtMatKhau.Location = new Point(228, 162);
+            txtMatKhau.Name = "txtMatKhau";
+            txtMatKhau.Size = new Size(453, 27);
+            txtMatKhau.TabIndex = 3;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(113, 165);
+            label2.Name = "label2";
+            label2.Size = new Size(72, 20);
+            label2.TabIndex = 2;
+            label2.Text = "Mật Khẩu";
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(txtMatKhau);
+            Controls.Add(label2);
+            Controls.Add(txtTenDangNhap);
+            Controls.Add(label1);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label label1;
+        private TextBox txtTenDangNhap;
+        private TextBox txtMatKhau;
+        private Label label2;
     }
 }
