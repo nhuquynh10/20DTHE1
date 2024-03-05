@@ -66,13 +66,16 @@
             label2.Size = new Size(72, 20);
             label2.TabIndex = 2;
             label2.Text = "Mật Khẩu";
-
+            // 
+            // btnDangNhap
+            // 
             btnDangNhap.Location = new Point(235, 235);
             btnDangNhap.Name = "btnDangNhap";
             btnDangNhap.Size = new Size(94, 29);
             btnDangNhap.TabIndex = 3;
             btnDangNhap.Text = "Dang Nhap";
             btnDangNhap.UseVisualStyleBackColor = true;
+            btnDangNhap.Click += btnDangNhap_Click;
             // 
             // Form1
             // 
